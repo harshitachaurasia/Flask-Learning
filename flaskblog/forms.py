@@ -1,6 +1,4 @@
-from xml.dom import ValidationErr
 from flask_wtf import FlaskForm
-from jsonschema import ValidationError
 from wtforms import StringField,PasswordField,SubmitField,BooleanField
 from wtforms.validators import DataRequired,Length, Email,EqualTo,ValidationError
 from flaskblog.models import User
